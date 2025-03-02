@@ -2,34 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://moonxwisher.github.io/TechArtBlog/</loc>
+    <loc>http://localhost:1313/TechArtBlog/</loc>
     <lastmod>2025-03-02T17:01:24+01:00</lastmod>
   </url><url>
-    <loc>https://moonxwisher.github.io/TechArtBlog/posts/painterly-shader/</loc>
+    <loc>http://localhost:1313/TechArtBlog/posts/painterly-shader/</loc>
     <lastmod>2025-03-02T17:01:24+01:00</lastmod>
   </url><url>
-    <loc>https://moonxwisher.github.io/TechArtBlog/posts/</loc>
+    <loc>http://localhost:1313/TechArtBlog/posts/</loc>
     <lastmod>2025-03-02T17:01:24+01:00</lastmod>
   </url><url>
-    <loc>https://moonxwisher.github.io/TechArtBlog/tags/shader/</loc>
+    <loc>http://localhost:1313/TechArtBlog/tags/shader/</loc>
     <lastmod>2025-03-02T17:01:24+01:00</lastmod>
   </url><url>
-    <loc>https://moonxwisher.github.io/TechArtBlog/tags/</loc>
+    <loc>http://localhost:1313/TechArtBlog/tags/</loc>
     <lastmod>2025-03-02T17:01:24+01:00</lastmod>
   </url><url>
-    <loc>https://moonxwisher.github.io/TechArtBlog/tags/techart/</loc>
+    <loc>http://localhost:1313/TechArtBlog/tags/techart/</loc>
     <lastmod>2025-03-02T17:01:24+01:00</lastmod>
   </url><url>
-    <loc>https://moonxwisher.github.io/TechArtBlog/tags/unity/</loc>
+    <loc>http://localhost:1313/TechArtBlog/tags/unity/</loc>
     <lastmod>2025-03-02T17:01:24+01:00</lastmod>
   </url><url>
-    <loc>https://moonxwisher.github.io/TechArtBlog/tags/urp/</loc>
+    <loc>http://localhost:1313/TechArtBlog/tags/urp/</loc>
     <lastmod>2025-03-02T17:01:24+01:00</lastmod>
   </url><url>
-    <loc>https://moonxwisher.github.io/TechArtBlog/tags/gamedev/</loc>
+    <loc>http://localhost:1313/TechArtBlog/tags/gamedev/</loc>
     <lastmod>2025-02-21T17:33:20+01:00</lastmod>
   </url><url>
-    <loc>https://moonxwisher.github.io/TechArtBlog/posts/introduction/</loc>
+    <loc>http://localhost:1313/TechArtBlog/posts/introduction/</loc>
     <lastmod>2025-02-21T17:33:20+01:00</lastmod>
   </url>
 </urlset>

@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Kenn blog!!</title>
-    <link>https://moonxwisher.github.io/TechArtBlog/</link>
+    <link>http://localhost:1313/TechArtBlog/</link>
     <description>Recent content on Kenn blog!!</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 02 Mar 2025 17:01:24 +0100</lastBuildDate>
-    <atom:link href="https://moonxwisher.github.io/TechArtBlog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/TechArtBlog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Painterly Shader</title>
-      <link>https://moonxwisher.github.io/TechArtBlog/posts/painterly-shader/</link>
+      <link>http://localhost:1313/TechArtBlog/posts/painterly-shader/</link>
       <pubDate>Sun, 02 Mar 2025 17:01:24 +0100</pubDate>
-      <guid>https://moonxwisher.github.io/TechArtBlog/posts/painterly-shader/</guid>
+      <guid>http://localhost:1313/TechArtBlog/posts/painterly-shader/</guid>
       <description></description>
     </item>
     <item>
       <title>Introduction</title>
-      <link>https://moonxwisher.github.io/TechArtBlog/posts/introduction/</link>
+      <link>http://localhost:1313/TechArtBlog/posts/introduction/</link>
       <pubDate>Fri, 21 Feb 2025 17:33:20 +0100</pubDate>
-      <guid>https://moonxwisher.github.io/TechArtBlog/posts/introduction/</guid>
+      <guid>http://localhost:1313/TechArtBlog/posts/introduction/</guid>
       <description>&lt;p&gt;Hey :]&lt;/p&gt;</description>
     </item>
   </channel>
