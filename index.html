@@ -454,7 +454,7 @@ header h1 a:hover {
 <body>
         <header>
             <div class="header-container">
-            <h1 id="Kenn blog!!"><a href="https://neopost.neocities.org/">Kenn blog!!</a>
+            <h1 id="Kenn blog!!"><a href="">Kenn blog!!</a>
             </h1>
             <button id="theme-toggle">🌙</button>
         </div>
@@ -465,8 +465,7 @@ header h1 a:hover {
     <aside id="sidebar">
         <div id="avatar">
             
-            <img class="flower" src="/avatar.png">
-            
+<img class="flower" src="{{ .Site.BaseURL }}avatar.png">            
         </div>
         
         <div id="bio">
@@ -507,7 +506,7 @@ I&rsquo;m Kenn ✨</p>
             
             <section>
             <div class="img-right">
-                <img src="/kirby.gif">
+                <img src="{{ .Site.BaseURL }}kirby.gif">
             </div>
             <div>
             <h1>welcome to my blog~!</h1>
