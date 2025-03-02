@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tags on Kenn blog!!</title>
+    <link>https://neopost.neocities.org/tags/</link>
+    <description>Recent content in tags on Kenn blog!!</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 02 Mar 2025 17:01:24 +0100</lastBuildDate>
+    <atom:link href="https://neopost.neocities.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Shader</title>
+      <link>https://neopost.neocities.org/tags/shader/</link>
+      <pubDate>Sun, 02 Mar 2025 17:01:24 +0100</pubDate>
+      <guid>https://neopost.neocities.org/tags/shader/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>TechArt</title>
+      <link>https://neopost.neocities.org/tags/techart/</link>
+      <pubDate>Sun, 02 Mar 2025 17:01:24 +0100</pubDate>
+      <guid>https://neopost.neocities.org/tags/techart/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Unity</title>
+      <link>https://neopost.neocities.org/tags/unity/</link>
+      <pubDate>Sun, 02 Mar 2025 17:01:24 +0100</pubDate>
+      <guid>https://neopost.neocities.org/tags/unity/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>URP</title>
+      <link>https://neopost.neocities.org/tags/urp/</link>
+      <pubDate>Sun, 02 Mar 2025 17:01:24 +0100</pubDate>
+      <guid>https://neopost.neocities.org/tags/urp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gamedev</title>
+      <link>https://neopost.neocities.org/tags/gamedev/</link>
+      <pubDate>Fri, 21 Feb 2025 17:33:20 +0100</pubDate>
+      <guid>https://neopost.neocities.org/tags/gamedev/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
