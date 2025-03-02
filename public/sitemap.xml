@@ -2,34 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://neopost.neocities.org/</loc>
     <lastmod>2025-03-02T17:01:24+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/painterly-shader/</loc>
+    <loc>https://neopost.neocities.org/posts/painterly-shader/</loc>
     <lastmod>2025-03-02T17:01:24+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://neopost.neocities.org/posts/</loc>
     <lastmod>2025-03-02T17:01:24+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/shader/</loc>
+    <loc>https://neopost.neocities.org/tags/shader/</loc>
     <lastmod>2025-03-02T17:01:24+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://neopost.neocities.org/tags/</loc>
     <lastmod>2025-03-02T17:01:24+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/techart/</loc>
+    <loc>https://neopost.neocities.org/tags/techart/</loc>
     <lastmod>2025-03-02T17:01:24+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/unity/</loc>
+    <loc>https://neopost.neocities.org/tags/unity/</loc>
     <lastmod>2025-03-02T17:01:24+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/urp/</loc>
+    <loc>https://neopost.neocities.org/tags/urp/</loc>
     <lastmod>2025-03-02T17:01:24+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/gamedev/</loc>
+    <loc>https://neopost.neocities.org/tags/gamedev/</loc>
     <lastmod>2025-02-21T17:33:20+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/introduction/</loc>
+    <loc>https://neopost.neocities.org/posts/introduction/</loc>
     <lastmod>2025-02-21T17:33:20+01:00</lastmod>
   </url>
 </urlset>

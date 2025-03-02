@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>tags on Kenn blog!!</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://neopost.neocities.org/tags/</link>
     <description>Recent content in tags on Kenn blog!!</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 02 Mar 2025 17:01:24 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://neopost.neocities.org/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Shader</title>
-      <link>http://localhost:1313/tags/shader/</link>
+      <link>https://neopost.neocities.org/tags/shader/</link>
       <pubDate>Sun, 02 Mar 2025 17:01:24 +0100</pubDate>
-      <guid>http://localhost:1313/tags/shader/</guid>
+      <guid>https://neopost.neocities.org/tags/shader/</guid>
       <description></description>
     </item>
     <item>
       <title>TechArt</title>
-      <link>http://localhost:1313/tags/techart/</link>
+      <link>https://neopost.neocities.org/tags/techart/</link>
       <pubDate>Sun, 02 Mar 2025 17:01:24 +0100</pubDate>
-      <guid>http://localhost:1313/tags/techart/</guid>
+      <guid>https://neopost.neocities.org/tags/techart/</guid>
       <description></description>
     </item>
     <item>
       <title>Unity</title>
-      <link>http://localhost:1313/tags/unity/</link>
+      <link>https://neopost.neocities.org/tags/unity/</link>
       <pubDate>Sun, 02 Mar 2025 17:01:24 +0100</pubDate>
-      <guid>http://localhost:1313/tags/unity/</guid>
+      <guid>https://neopost.neocities.org/tags/unity/</guid>
       <description></description>
     </item>
     <item>
       <title>URP</title>
-      <link>http://localhost:1313/tags/urp/</link>
+      <link>https://neopost.neocities.org/tags/urp/</link>
       <pubDate>Sun, 02 Mar 2025 17:01:24 +0100</pubDate>
-      <guid>http://localhost:1313/tags/urp/</guid>
+      <guid>https://neopost.neocities.org/tags/urp/</guid>
       <description></description>
     </item>
     <item>
       <title>Gamedev</title>
-      <link>http://localhost:1313/tags/gamedev/</link>
+      <link>https://neopost.neocities.org/tags/gamedev/</link>
       <pubDate>Fri, 21 Feb 2025 17:33:20 +0100</pubDate>
-      <guid>http://localhost:1313/tags/gamedev/</guid>
+      <guid>https://neopost.neocities.org/tags/gamedev/</guid>
       <description></description>
     </item>
   </channel>
