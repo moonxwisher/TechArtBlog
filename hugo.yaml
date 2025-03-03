@@ -3,7 +3,8 @@ baseURL: 'https://moonxwisher.github.io/TechArtBlog/'
 languageCode: 'en-us'
 titleCaseStyle: 'none' # comment this line for forcing capitalized titles on tags
 theme: "neopost"
-
+params:
+  relativeURLs: true
 taxonomies:
   tag: "tags"
 
