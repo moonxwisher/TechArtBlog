@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gamedev on Kenn blog!!</title>
-    <link>https://neopost.neocities.org/tags/gamedev/</link>
+    <link>http://localhost:1313/tags/gamedev/</link>
     <description>Recent content in Gamedev on Kenn blog!!</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 21 Feb 2025 17:33:20 +0100</lastBuildDate>
-    <atom:link href="https://neopost.neocities.org/tags/gamedev/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/gamedev/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Introduction</title>
-      <link>https://neopost.neocities.org/posts/introduction/</link>
+      <link>http://localhost:1313/posts/introduction/</link>
       <pubDate>Fri, 21 Feb 2025 17:33:20 +0100</pubDate>
-      <guid>https://neopost.neocities.org/posts/introduction/</guid>
+      <guid>http://localhost:1313/posts/introduction/</guid>
       <description>&lt;p&gt;Hey :]&lt;/p&gt;</description>
     </item>
   </channel>

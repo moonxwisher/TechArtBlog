@@ -1,32 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-    <script>
-        document.addEventListener("DOMContentLoaded", () => {
-            
-            const savedTheme = localStorage.getItem("theme");
-    
-            if (savedTheme) {
-                document.body.classList.toggle("dark-mode", savedTheme === "dark");
-            } else {
-                
-                document.body.classList.add("dark-mode");
-            }
-        });
-    
-        function toggleTheme() {
-            document.body.classList.toggle("dark-mode");
-            
-            
-            if (document.body.classList.contains("dark-mode")) {
-                localStorage.setItem("theme", "dark");
-            } else {
-                localStorage.setItem("theme", "light");
-            }
-        }
-    </script>
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <title>TechArt | Kenn blog!!</title>
-    <link rel="canonical" href="https://neopost.neocities.org/">
+    <link rel="canonical" href="http://localhost:1313/">
     
     
     <link rel="icon" href="/favicon.ico">
@@ -42,37 +18,59 @@
 
 :root {
     --site-bg: url("/startileblack.png");
-    --accent-color: #338CD1;
-    --select-color: #FFFFA3;
-    --link-color: #E93C24;
-    --bg-color: #FFC4D7;
-    --text-color: #3A327B;
-    --bg-color2: #FFDFEA;
-    --border-color: #FF6797;
-    --special-text-color: #D4646C;
+    --accent-color: #9b59b6;
+    --select-color: #d7a8e4;
+    --link-color: #8e44ad;
+    --bg-color: #f4e1f3;
+    --text-color: #5a5a5a;
+    --bg-color2: #fff;
+    --border-color: #d9b0d1;
+    --special-text-color: #8e44ad;
     --post-header-color: white;
-    --post-shadow-color: #B25C9680;
-    --outline-color: #6573C5;
-    --outline-color2: #B25C9680;
+    --post-shadow-color: #d7a8e480;
+    --outline-color: #d7a8e4;
+    --outline-color2: #f4e1f3;
     --list-style-type: "<no value>";
-    --list-style-image: url("/starorange.png");
+    --list-style-image: url("/star.png");
 }
 .dark-mode {
-    --site-bg: url("/startileblack.png"); /* Imagen de fondo oscuro */
-    --bg-color: #291e28; /* Fondo general oscuro */
-    --text-color: #ffffff; /* Texto en blanco */
-    --bg-color2: rgb(87, 63, 85); /* Fondos secundarios oscuros */
-    --border-color: #444; /* Bordes más oscuros */
-    --post-shadow-color: #00000080; /* Sombra más sutil */
-    --link-color: #ffffff; /* Color de enlaces */
-    --accent-color: #71537c; /* Color de acento */
-    --text-color:#ebbaff;
-    --special-text-color: #f7e2ff; /* Texto especial */
+    --site-bg: url("/startileblack.png");
+    --bg-color: #291e28;
+    --text-color: #ebbaff;
+    --bg-color2: rgb(87, 63, 85);
+    --border-color: #444;
+    --post-shadow-color: #00000080;
+    --link-color: #ffffff;
+    --accent-color: #71537c;
+    --special-text-color: #f7e2ff;
 }
 
 * {
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@-moz-document url-prefix() {
+    * {
+        scrollbar-width: thin;
+        scrollbar-color: var(--accent-color) #00000000;
+    }
+}
+
+::-webkit-scrollbar {
+    height: 8px;
+    width: 8px;
+    background: #00000000;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--accent-color);
+    -webkit-border-radius: .3rem;
+    -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
+}
+
+::-webkit-scrollbar-corner {
+    background: #000;
 }
 
 ::selection {
@@ -106,14 +104,15 @@ header {
     min-height: 80px;
     margin: 0 0;
     align-content: center;
+    
+
 }
 .header-container {
     display: flex;
     align-items: center;
-    justify-content: center; /* Centra los elementos horizontalmente */
-    gap: 10px; /* Espacio entre el título y el botón */
+    justify-content: center;
+    gap: 10px;
 }
-
 #theme-toggle {
     background: none;
     border: none;
@@ -128,7 +127,7 @@ header > h1 {
     margin: 0 auto;
     font-size: 2em;
 /*uncomment this line if you want the header text to not take up the full length of the div*/
-    /* width: fit-content;*/ */
+    /*width: fit-content;*/
     max-width: 600px;
     padding: 6px 12px;
     border-radius: 1em;
@@ -186,7 +185,7 @@ li {
 
 nav {margin: 1em;}
 
-nav > ul {
+nav.links > ul {
     max-width: 960px;
     margin: auto;
     line-height: 3rem;
@@ -195,13 +194,13 @@ nav > ul {
     justify-content: space-evenly;
 }
 
-nav li {
+nav.links li {
     text-align: center;
     list-style-image: none;
     list-style-type: none;
 }
 
-nav li > a {
+nav.links li > a {
     font-weight: bold;
     background-color: var(--bg-color);
     border: 4px double var(--outline-color);
@@ -209,10 +208,24 @@ nav li > a {
     text-decoration: none;
 }
 
-nav li > a:visited {color: var(--link-color);}
-nav li > a:hover {
+nav.links li > a:visited {color: var(--link-color);}
+nav.links li > a:hover {
     color: var(--accent-color);
     background-color: var(--select-color);
+}
+
+nav.languages {
+    margin: .3em;
+    text-align: center;
+}
+
+
+nav.languages ul {
+    display: inline-block;
+}
+
+nav.languages ul li {
+    display: inline-block;
 }
 
 a {
@@ -278,7 +291,7 @@ a:hover {
 
 #content {
     display: flex;
-    max-width: 1400px;
+    max-width: 960px;
     margin: auto;
 }
 
@@ -406,6 +419,78 @@ header h1 a:hover {
     text-shadow: var(--bg-color) 1px 1px;
 }
 
+.dropbox-btn {
+    color: var(--link-color);
+    font-weight: bold;
+    background-color: var(--bg-color);
+    /* border: 4px double var(--outline-color); */
+    border: 1px solid var(--outline-color);
+    /* padding: .5em 3em; */
+    text-decoration: none;
+}
+
+.dropbox-content[visible] {
+    display: block;
+}
+
+.dropbox-content {
+    display: none;
+    position: absolute;
+    z-index: 1
+}
+
+.table-of-contents {
+    background-color: var(--bg-color2);
+    padding: .3em;
+    border: 2px solid var(--border-color);
+    border-radius: .3em;
+    box-shadow: var(--post-shadow-color) 5px 5px;
+}
+
+.table-of-contents.sidebar {
+    position: sticky;
+    top: 1rem;
+    height: fit-content;
+    width: 10rem;
+    flex-shrink: 0;
+    max-height: calc(100vh - 2rem);
+    overflow-x: auto;
+}
+
+.table-of-contents.float {
+    width: max-content;
+    max-width: 50vw;
+    max-height: 50%;
+    overflow: auto;
+}
+
+.table-of-contents nav {
+    margin: 0 .5em;
+}
+
+.table-of-contents nav ul {
+    margin: .5em 1em;
+    padding: 0;
+}
+
+.table-of-contents nav li {
+    margin: .3em 0;
+}
+
+#single-post {
+    display: flex;
+    gap: 1rem;
+}
+
+#single-post > article {
+    width: 100%;
+    margin-bottom: 0;
+}
+
+#single-post > article > #post-toc-mobile {
+    display: none;
+}
+
 /* these are the mobile styles! */
 @media only screen and (max-width: 800px) {
     #content {
@@ -426,7 +511,7 @@ header h1 a:hover {
         width: fit-content;
         padding: .3em 1em;
     }
-    nav > ul {
+    nav.links > ul {
     /* this stuff makes it wrap around on mobile */
         display: flex;
         flex-wrap: wrap;
@@ -443,6 +528,14 @@ header h1 a:hover {
     #sidebar li {
         margin: .3em 1em;
     }
+
+    #single-post > .table-of-contents.sidebar {
+        display: none;
+    }
+
+    #single-post > article > #post-toc-mobile {
+        display: inline;
+    }
 }
 </style>
 
@@ -451,13 +544,14 @@ header h1 a:hover {
     <meta charset="utf-8">
 </head>
 <body>
-        <header>
-            <div class="header-container">
-            <h1 id="Kenn blog!!"><a href="https://neopost.neocities.org/">Kenn blog!!</a>
+    <header>
+        <div class="header-container">
+            <h1 id="Kenn blog!!">
+                <a href="https://neopost.neocities.org/">Kenn blog!!</a>
             </h1>
             <button id="theme-toggle">🌙</button>
         </div>
-        </header>
+    </header>
 <main>
     
 <article style="padding-left: 2rem;">
@@ -466,7 +560,7 @@ header h1 a:hover {
         
         <li class="tag-item">
             <a href="/posts/painterly-shader/">Painterly Shader</a>
-            <p> > Introduction Breakdown</p>
+            <p> > dsdsIntroduction Breakdown</p>
         </li>
         
         <li class="tag-item">
@@ -483,5 +577,6 @@ eksdf fdlskfdsfkdlsfkdslfkdskfjds dfolsdjkfjsdkfsdnkfjdkfdsjfsdkj
     
 </main>
 <script src="/js/theme.js"></script>
+
 </body>
 </html>

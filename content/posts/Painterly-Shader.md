@@ -1,16 +1,12 @@
-  ---
-title: "Painterly Shader"
-date: "2025-03-02T17:01:24+01:00"
-tags: ["Unity", "Shader", "TechArt", "URP"]
-title_images: ["/painterly.gif"]
-# ending_images: ["/photo3.png", "/photo4.png", "/photo5.png",]
+---
+title: "friends!!"
+date: "2025-01-29T21:05:11-03:00"
+tags: ["meow", "rawr",]
+title-images: ["/painterly.gif"]
 author: "Ken"
 draft: false
 ---
 <!-- introduction -->
-<!--more-->
-<!-- rest of the content -->
-    
 # Introduction
-# Breakdown
+# breakdown 
 
