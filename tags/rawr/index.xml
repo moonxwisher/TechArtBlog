@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>rawr on Kenn blog!!</title>
+    <link>https://moonxwisher.github.io/TechArtBlog/tags/rawr/</link>
+    <description>Recent content in rawr on Kenn blog!!</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 29 Jan 2025 21:05:11 -0300</lastBuildDate>
+    <atom:link href="https://moonxwisher.github.io/TechArtBlog/tags/rawr/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>friends!!</title>
+      <link>https://moonxwisher.github.io/TechArtBlog/posts/painterly-shader/</link>
+      <pubDate>Wed, 29 Jan 2025 21:05:11 -0300</pubDate>
+      <guid>https://moonxwisher.github.io/TechArtBlog/posts/painterly-shader/</guid>
+      <description>&lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;&#xA;&lt;h1 id=&#34;breakdown&#34;&gt;breakdown&lt;/h1&gt;</description>
+    </item>
+  </channel>
+</rss>
