@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:1313/TechArtBlog/posts/painterly-shader/</loc>
+    <lastmod>2025-01-29T21:05:11-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/TechArtBlog/</loc>
+    <lastmod>2025-01-29T21:05:11-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/TechArtBlog/tags/meow/</loc>
+    <lastmod>2025-01-29T21:05:11-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/TechArtBlog/posts/</loc>
+    <lastmod>2025-01-29T21:05:11-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/TechArtBlog/tags/rawr/</loc>
+    <lastmod>2025-01-29T21:05:11-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/TechArtBlog/tags/</loc>
+    <lastmod>2025-01-29T21:05:11-03:00</lastmod>
+  </url>
+</urlset>
