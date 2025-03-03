@@ -1,5 +1,5 @@
 title: "Kenn blog!!"
-baseURL: 'https://neopost.neocities.org'
+baseURL: 'https://moonxwisher.github.io/TechArtBlog/'
 languageCode: 'en-us'
 titleCaseStyle: 'none' # comment this line for forcing capitalized titles on tags
 theme: "neopost"
